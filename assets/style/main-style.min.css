@@ -1,7 +1,7 @@
 :root {
   --color-white: #fff;
   --color-black: #000;
-  --content-width: 1200px;
+  --content-width: 1500px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
   --font-size: 16px;
@@ -40,8 +40,8 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-black);
   font-family: var(--font-family);
   font-weight: 400;
 }
@@ -52,11 +52,40 @@
 .container {
   max-width: var(--container-width);
   padding: 0 var(--container-padding);
-  margin: 0 auto;
+  margin: 5px 20px;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     background-color: red;
   }
-}/*# sourceMappingURL=main-style.min.css.map */
+}
+
+.button {
+  border: none;
+}
+
+.header__list ul {
+  display: flex;
+  margin: 0 450px;
+  gap: 25px;
+}
+
+.header__container {
+  display: flex;
+  margin: 53px 32px;
+}
+
+.header__links {
+  display: flex;
+}
+.header__links__link1 {
+  border: 2px solid black;
+  padding: 15px 32px;
+  border-radius: 28px;
+}
+.header__links__link2 {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 28px;
+}

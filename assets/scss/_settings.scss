@@ -1,7 +1,7 @@
 .application{
     width: 100%;
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-black);
     font-family: var(--font-family);
     font-weight: 400;
     &__template{
@@ -11,7 +11,7 @@
 .container{
     max-width: var(--container-width);
     padding: 0 var(--container-padding);
-    margin: 0 auto;
+    margin: 5px 20px;
     width: 100%;
     @include md{
         background-color: red;
