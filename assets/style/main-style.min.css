@@ -61,8 +61,137 @@
   }
 }
 
-.button {
-  border: none;
+.button1 {
+  border: 2px solid black;
+  padding: 15px 32px;
+  border-radius: 28px;
+}
+
+.button2 {
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 28px;
+  align-items: center;
+}
+
+.header__list ul {
+  display: flex;
+  margin: 0 450px;
+  gap: 25px;
+}
+
+.header__container {
+  display: flex;
+  margin: 53px 32px;
+}
+
+.header__links {
+  display: flex;
+}
+.header__links__link1 {
+  border: 2px solid black;
+  padding: 15px 32px;
+  border-radius: 28px;
+}
+.header__links__link2 {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 28px;
+}
+
+.welcome__container {
+  display: flex;
+}
+.welcome__container h1 {
+  font-size: 60px;
+}
+
+.link__button1 {
+  background-color: black;
+  color: #DCE9B1;
+  border: 2px solid black;
+  padding: 15px 32px;
+  border-radius: 28px;
+}
+
+.link__button2 {
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 28px;
+  background-color: black;
+}
+
+.welcome__container-img {
+  margin-left: 30px;
+}
+.welcome__container-img img {
+  border-radius: 24px;
+  height: 125%;
+  width: 105%;
+}
+
+.welcome__container-links__buttons {
+  padding-top: 50px;
+}
+
+.welcome__imgs {
+  display: flex;
+  gap: 50px;
+  margin-left: 20px;
+}
+.welcome__imgs img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.welcome__end {
+  display: flex;
+  background-color: #DCE9B1;
+  margin-top: 20px;
+}
+.welcome__end ul {
+  display: flex;
+  gap: 50px;
+  padding-left: 600px;
+}
+.welcome__end ul li {
+  border: 1px solid #DCE9B1;
+  padding: 20px 25px;
+  border-radius: 20px;
+  background-color: rgba(94, 121, 6, 0.0823529412);
+}
+.welcome__end-likes {
+  display: flex;
+  padding: 15px 50px;
+}
+.welcome__end-likes p {
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.header__list ul {
+  display: flex;
+  margin: 0 450px;
+  gap: 25px;
+}
+
+.header__container {
+  display: flex;
+  margin: 53px 32px;
+}
+
+.header__links {
+  display: flex;
+}
+.header__links__link1 {
+  border: 2px solid black;
+  padding: 15px 32px;
+  border-radius: 28px;
+}
+.header__links__link2 {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 28px;
 }
 
 .header__list ul {
