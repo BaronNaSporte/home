@@ -169,6 +169,45 @@
   font-weight: 500;
 }
 
+.branding__head-link {
+  border: 2px solid black;
+  padding: 15px 10px;
+  border-radius: 28px;
+  width: 130px;
+}
+
+.branding__head h1 {
+  font-size: 55px;
+}
+
+.branding__main {
+  margin-top: 200px;
+  display: flex;
+}
+.branding__main p {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.branding__img1-link {
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  margin: 10px 24px;
+  padding: 15px 10px;
+  border-radius: 28px;
+  width: 130px;
+}
+
+.branding__main-arrows {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 390px;
+}
+
 .header__list ul {
   display: flex;
   margin: 0 450px;
