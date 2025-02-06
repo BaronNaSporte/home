@@ -130,7 +130,7 @@ h1 {
 }
 .welcome__container-img img {
   border-radius: 24px;
-  height: 125%;
+  height: 130%;
   width: 105%;
 }
 
@@ -157,11 +157,14 @@ h1 {
   display: flex;
   gap: 50px;
   padding-left: 600px;
+  align-items: center;
 }
 .welcome__end ul li {
   border: 1px solid #DCE9B1;
-  padding: 20px 25px;
-  border-radius: 20px;
+  text-align: center;
+  padding: 15px 30px;
+  height: 50px;
+  border-radius: 25px;
   background-color: rgba(94, 121, 6, 0.0823529412);
 }
 .welcome__end-likes {
@@ -283,27 +286,42 @@ h1 {
   color: white;
 }
 
-.header__list ul {
-  display: flex;
-  margin: 0 450px;
-  gap: 25px;
+.collection__container__head img {
+  width: 102%;
 }
-
-.header__container {
-  display: flex;
-  margin: 53px 32px;
-}
-
-.header__links {
+.collection__container__head__text {
   display: flex;
 }
-.header__links__link1 {
+.collection__container__head__text h1 {
+  padding-left: 910px;
+}
+.collection__container__head__text-link {
+  margin-top: 120px;
   border: 2px solid black;
-  padding: 15px 32px;
-  border-radius: 28px;
+  color: black;
+  border-radius: 24px;
+  text-align: center;
+  padding: 8px 15px;
+  height: 40px;
 }
-.header__links__link2 {
+
+.collection {
+  margin-top: 100px;
+}
+.collection__cards {
+  margin-top: 50px;
+  display: flex;
+}
+.collection__cards__card img {
+  width: 95%;
+  border-radius: 24px;
+  width: 422px;
+}
+
+.collection__head-link {
   border: 2px solid black;
   padding: 10px;
+  text-align: center;
   border-radius: 28px;
+  width: 150px;
 }
