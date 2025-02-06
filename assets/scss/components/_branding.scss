@@ -26,12 +26,23 @@ padding: 15px 10px;
 border-radius: 28px;
 width: 130px;
 }
-.branding__main-arrows{
-    border: 1px solid black;
+.branding__main-arrow1{
+    border: 2px solid black;
     padding: 10px;
     border-radius: 50px;
-    
     position: absolute;
     margin-left: 420px;
     margin-top: 390px;
+}
+.branding__main-arrow2{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 390px;
+}
+.branding{
+    padding-top: 50px;
+    background-color: #F5F5F5;
 }
